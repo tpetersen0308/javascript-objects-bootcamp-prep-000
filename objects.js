@@ -1,7 +1,7 @@
 var playlist = new Object({Wilco: "Impossible Germany"})
 
 function updatePlaylist(playlist, artist, song){
-  playlist[artist] = song
+  playlist[artist] = song;
   return playlist;
 }
 
